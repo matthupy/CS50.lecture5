@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+            // Default counter variable
+            let counter=0
+
+            // Function to change the heading to say goodbye
+            function count() {
+                counter++
+                document.querySelector('#counter').innerHTML = counter;
+            }
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1 id="counter">0</h1>
+        <button onclick="count()">Click Here!</button>
+    </body>
+</html>
